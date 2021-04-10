@@ -1,0 +1,59 @@
+package smartlog.officer.entity;
+
+public class ModifyOfficerRequest {
+    private String name;
+    private String password;
+    private String email;
+    private String phoneNo;
+    private String officerType;
+    Long roleId;
+
+    public Long getRoleId() {
+        return roleId;
+    }
+
+    public void setRoleId(Long roleId) {
+        this.roleId = roleId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhoneNo() {
+        return phoneNo;
+    }
+
+    public void setPhoneNo(String phoneNo) {
+        this.phoneNo = phoneNo;
+    }
+
+    public String getOfficerType() {
+        return officerType;
+    }
+
+    public void setOfficerType(String officerType) {
+        this.officerType = officerType;
+    }
+
+}
